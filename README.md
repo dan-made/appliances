@@ -1,23 +1,17 @@
-# Next.js + Tailwind CSS Example
+# Challenge
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+This repo is a slightly modified version of the out of the box with-tailwindcss Next.js example. The goal is to render out some product data. 
 
-## Deploy your own
+## Getting Started
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+* `yarn`
+* `yarn dev`
+* Go to localhost:3000
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+## Challenge Requirements
 
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-# or
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+* Use pages/index.tsx as your page. There are some tidbits of code left there, feel free to use them or not.
+* Product data is available via a call to /api or a products lib if you would like to static render. We would like to see all 12 products rendered on the home page, sorted by price from highest to lowest.
+* We would like to see, at minimum, the title, price, and image rendered for each product in a grid. We would also like an "Add to Cart" button that alerts(`${title} added to cart`) when clicked.
+* Beyond that, we would like you to use the rest of the hour to enhance the content as you see fit. More styling, more product data, sorting, filtering, the options are up to you.
+* Once your time is done, be thinking about what you _might_ have done if you had more time.
