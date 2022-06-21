@@ -1,5 +1,3 @@
-# Challenge
-
 This repo is a slightly modified version of the out of the box with-tailwindcss Next.js example. The goal is to render out some product data. 
 
 ## Getting Started
@@ -8,7 +6,7 @@ This repo is a slightly modified version of the out of the box with-tailwindcss 
 * `yarn dev`
 * Go to localhost:3000
 
-## Challenge Requirements
+## Requirements
 
 * Use pages/index.tsx as your page. There are some tidbits of code left there, feel free to use them or not.
 * Product data is available via a call to /api or a products lib if you would like to static render. We would like to see all 12 products rendered on the home page, sorted by price from highest to lowest.
